@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- 이 아래로 작성합니다. -->
+      <form autocomplete="on">
+        <label for="input-name">이름</label>
+        <input id="input-name" type="text" />
+        <br />
+        <label for="input-pw">패스워드</label>
+        <input id="input-pw" type="password" />
+        <br />
+        <br />
+        <label>성별</label>
+        <input name="role" id="input-dev" type="radio" checked />
+        <label for="input-dev">남</label>
+        <input name="role" id="input-design" type="radio" />
+        <label for="input-design">여</label>
+        <br />
+        <br />
+        <label for="select-dep">소속</label>
+        <select id="select-dep">
+          <option value="adm">프론트엔드팀</option>
+          <option value="mkt">마케팅팀</option>
+          <option value="frt">운영팀</option>
+          <option value="bck">백엔드팀</option>
+          <option value="tst">테스트팀</option>
+          <option value="mnt">유지보수팀</option>
+        </select>
+        <label for="input-file">첨부파일</label>
+        <input id="input-file" type="file" multiple />
+        <br />
+        <br />
+        <br />
+        <br />
+        <button>등록하기</button>
+    </form>
+  </body>
+</html>
